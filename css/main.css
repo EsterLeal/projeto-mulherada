@@ -21,8 +21,16 @@ max-width: 5%;
 
 
 .redes-sociais ul li {
-    
+
 /* display: inline-block;
 float: left;
 list-style: none; */
 } 
+
+.flex {
+    flex-flow: column wrap;
+}
+
+.media {
+    display:
+}

@@ -1,56 +1,93 @@
-<!-- ESTER -cadastro do curriculo do usuário -->
+<!-- Ester cadastro de currículo -->
 
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/cadastros.css">
 
-    <title>Curriculo</title>
+    <title>Currículo</title>
+
 </head>
 
 <body>
-    <header class="logo-usuario">
-        <div class="header-1">
-            <div class="container">
-                <img src="./img/logo.jpeg" />
-            </div>
-        </div>
-    </header>
 
-    <h1>Cadastro de Currículo</h1>
-    <p> Cadastre seu currículo nos campos abaixo! </p>
+    <form name="formCurriculo" action="" method="POST">
 
-    <input type="button" name="cadastro-curriculo" value="Anexar">
 
-    <h2>Dados pessoais</h2>
- <!-- action - para as informações do usuário são direcionadas -->
+        <h1>Cadastre seu currículo!</h1>
+        <p>Cadastre seu currículo nos campos abaixo! </p>
 
-    <form action="." method="post">
-        Nome Completo: <input type="text" name=""><br>
-        Data de Nascimento: <input type="text" name=""><br>
-        Nacionalidade: <input type="text" name=""><br>
-        CPF: <input type="text" name=""><br>
-        Estado Civil: <input type="text" name=""><br>
+        Selecione um arquivo <input type="file" name="arquivo">
 
-        <h2>Contato</h2>
+        <h3>Dados pessoais</h3>
 
-        E-mail: <input type="text" name=""><br>
-        Telefone fixo: <input type="text" name=""><br>
-        Telefone Celular: <input type="text" name=""><br>
-        
-        <h2>Endereço</h2>
+        <p class="nome">
+            <input type="text" name="nome" placeholder="Nome Completo" required="required">
+        </p>
 
-        CEP: <input type="text" name=""><br>
-        Rua: <input type="text" name=""><br>
-        Bairro: <input type="text" name=""><br>
-        Cidade: <input type="text" name=""><br>
-        Estado: <input type="text" name=""><br>
-        
-        <input type="submit" value="Enviar">
+        <p>Data de Nascimento</p>
+
+        <p class="dataNascimento">
+            <input type="date" name="calendario" placeholder="Data de Nascimento" required="required">
+        </p>
+
+        <p class="nacionalidade">
+            <input type="text" name="nacionalidade" placeholder="Nacionalidade" required="required">
+        </p>
+
+        <p class="cpf">
+            <input type="number" name="numero" placeholder="Digite seu CPF" required="required">
+        </p>
+
+        <p class="estadoCivil">
+            <input type="text" name="estadoCivil" placeholder="Estado Civil" required="required">
+        </p>
+
+        <h3>Contato</h3>
+
+        <p class="email">
+            <input type="email" name="email" placeholder="Informe um E-mail válido" required="required">
+        </p>
+
+        <p class="telefone">
+            <input type="text" name="telefone" placeholder="Telefone Fixo" required="required">
+        </p>
+
+        <p class="telefoneCel">
+            <input type="text" name="telefoneCel" placeholder="Telefone Celular" required="required">
+        </p>
+
+        <h3>Endereço</h3>
+
+        <p class="cep">
+            <input type="text" name="cep" placeholder="Digite o CEP" required="required">
+        </p>
+
+        <p class="rua">
+            <input type="text" name="rua" placeholder="Rua (com o número)" required="required">
+        </p>
+
+        <p class="bairro">
+            <input type="text" name="bairro" placeholder="Bairro" required="required">
+        </p>
+
+        <p class="cidade">
+            <input type="text" name="cidade" placeholder="Cidade" required="required">
+        </p>
+
+        <p class="estado">
+            <input type="text" name="estado" placeholder="Estado" required="required">
+        </p>
+
+
+        <p class="enviar">
+            <input type="submit" name="enviar" value="Enviar">
+        </p>
 
     </form>
 

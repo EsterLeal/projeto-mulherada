@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    font-size: 16px;
+    background: gold;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 10px 10px 10px;
+}
+
+h1 {
+    color: black;
+}
+
+input, textarea {
+    width: 470px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.enviar input {
+    background: hotpink;
+    width: 470px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color: floralwhite;
+    cursor: pointer;
+}
+
+.enviar input:hover {
+    background: purple;
+    opacity: 10;
+}
