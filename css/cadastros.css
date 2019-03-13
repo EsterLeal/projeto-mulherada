@@ -5,7 +5,8 @@ body {
 
 form {
     font-size: 16px;
-    background: gold;
+    background:rgb(30, 107, 131);
+    border-radius: 5px;
     max-width: 500px;
     margin: 0 auto;
     padding: 0 10px 10px 10px;
@@ -22,7 +23,7 @@ input, textarea {
 }
 
 .enviar input {
-    background: hotpink;
+    background: rgba(197, 69, 107, 0.897);
     width: 470px;
     padding: 10px;
     font-weight: bold;
@@ -33,6 +34,6 @@ input, textarea {
 }
 
 .enviar input:hover {
-    background: purple;
+    background: rgba(197, 69, 107, 0.411);
     opacity: 10;
 }
