@@ -1,0 +1,22 @@
+body{
+    margin:0;
+}
+
+.avaliacaoDaEmpresa{
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 8px;
+}
+
+.botao{
+    display: flex;
+    justify-content: end;
+}
+
+main{
+    display: flex;
+    background-image: url ('img/10869.jpeg');
+    background-position: center;
+    background-size: cover;
+
+}
