@@ -1,0 +1,25 @@
+.depoimento { 
+    align-items: center;
+    color:white;
+    display:flex;
+    flex-flow:column;
+   
+}
+
+h1 {
+    color:white;
+    text-align: center; 
+}
+
+textarea {
+    height: 128px; 
+    resize: none;
+    width: 244px;
+}
+
+button {
+    display: flex;
+    height: 26px;
+    margin-top: 1em;
+    width: 56px;
+}
