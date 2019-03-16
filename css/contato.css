@@ -1,24 +1,27 @@
 .faleConosco {
+    align-items: center;
     color:white;
-    display:flex;
-    flex-flow:column;
-    align-items: center
+    display: flex;
+    flex-flow: column;    
 }
     
 textarea {
+    border-radius: 8px;
+    height: 128px;
     resize: none;
-    width: 244px;
-    height: 128px
+    width: 244px;   
 }
     
 button {
+    border-radius: 8px;
     display: flex;
-    width: 56px;
     height: 26px;
-    margin-top: 1em;
+    margin-top: 1em; 
+    width: 56px;
 }
     
 input {
+    border-radius:8px;
     width: 246px;
 } 
     

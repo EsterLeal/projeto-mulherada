@@ -12,12 +12,20 @@ h1 {
 }
 
 textarea {
+    border-radius:8px;
     height: 128px; 
     resize: none;
     width: 244px;
 }
 
+
+input {
+    border-radius:8px;
+    width: 246px;
+} 
+
 button {
+    border-radius:8px;
     display: flex;
     height: 26px;
     margin-top: 1em;
