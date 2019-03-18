@@ -145,7 +145,6 @@ main div.container {
     flex-direction: row;
 }
 
-<<<<<<< HEAD
 .redes-sociais ul li {
 
 /* display: inline-block;
@@ -158,9 +157,8 @@ list-style: none; */
 }
 
 .media {
-    display:
+    /* display: */
 }
-=======
 .busca-container section input{
     display: flex;
     font-size: 18pt;
@@ -357,4 +355,3 @@ footer .container .img-footer img {
 
 
 
->>>>>>> a0afe74f090a3edfbb15b9ce3c7d7d594a6d517d

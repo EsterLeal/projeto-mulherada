@@ -3,9 +3,24 @@ body {
     text-align: center;
 }
 
-img {
-    padding: 30px;
-    width: 600px;
+h1 {
+    font-weight: bold;
+    font-size: 37px;
+    letter-spacing: 1rem;
+    text-shadow: 5px 4px 3px black;
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin: 15px;
+    text-align: justify;
+}
+
+.imagem {
+    margin: 0; 
+    width: 560px;
+    opacity: 0.70;
 }
 
   
