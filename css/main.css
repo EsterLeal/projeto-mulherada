@@ -145,6 +145,23 @@ main div.container {
     flex-direction: row;
 }
 
+<<<<<<< HEAD
+=======
+.redes-sociais ul li {
+
+/* display: inline-block;
+float: left;
+list-style: none; */
+} 
+
+.flex {
+    flex-flow: column wrap;
+}
+
+.media {
+    /* display: */
+}
+>>>>>>> 2c79b9289d69d760c9c0cc6e89b8d7678f1d6cf8
 .busca-container section input{
     display: flex;
     font-size: 18pt;

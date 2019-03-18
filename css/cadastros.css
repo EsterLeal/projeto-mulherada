@@ -1,11 +1,17 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: sans-serif;
+}
+
+.user {
+    background:rgba(128, 0, 128, 0.801);
 }
 
 form {
     font-size: 16px;
-    background:rgb(30, 107, 131);
+    background: white;
     border-radius: 5px;
     max-width: 500px;
     margin: 0 auto;
@@ -23,13 +29,13 @@ input, textarea {
 }
 
 .enviar input {
-    background: rgba(197, 69, 107, 0.897);
-    width: 470px;
+    background: rgba(128, 0, 128, 0.801);
+    width: 100px;
     padding: 10px;
     font-weight: bold;
     border-radius: 5px;
     border: 1px solid;
-    color: floralwhite;
+    color: white;
     cursor: pointer;
 }
 
@@ -37,3 +43,24 @@ input, textarea {
     background: rgba(197, 69, 107, 0.411);
     opacity: 10;
 }
+
+.entrar input { 
+    background: rgba(128, 0, 128, 0.801);
+    width: 100px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color: white;
+    cursor: pointer;
+}
+
+.entrar input:hover {
+    background: rgba(197, 69, 107, 0.411);
+    opacity: 10;
+}
+
+.botaoRedes {
+    cursor: pointer;
+}
+

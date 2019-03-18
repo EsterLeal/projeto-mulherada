@@ -8,6 +8,7 @@
         <title>MULHERADA</title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
         <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="css/stylesAvaliacao.css">
     </head>
     
     <body>
@@ -33,27 +34,34 @@
                 </nav>
             </div>
         </header>
+     <div class="centralizarH1">
+        <h1>Avalie uma Empresa!</h1>
+     </div>
 
-    <h1>Avalie uma Empresa!</h1>
-    <p>Deixe aqui um comentário e uma avaliação do seu contato com uma empresa.</p>
+     <div class="centralizarP">
+        <p>Deixe aqui um comentário e uma avaliação do seu contato com uma empresa.</p>
+     </div>
+     
     <main>
-        <div class="avaliacaoDaEmpresa">
-            Nome completo: <input type="text">
-            Nome da Empresa: <input type="text">
-            Título do seu comentário: <input type="text">
-            Seu comentário: <textarea name="" id="" cols="30" rows="10"></textarea>
-            Avaliação: <select>
-                    <option>Péssima</option>
-                    <option>Ruím</option>
-                    <option>Normal</option>
-                    <option>Boa</option>
-                    <option>Ótima</option>
-                </select>
-            <div class="botao">
-                    <Button>Enviar</Button>
+        <form action="." method="post">
+            <div class="avaliacaoDaEmpresa">
+                Nome completo: <input type="text">
+                Nome da Empresa: <input type="text">
+                Título do seu comentário: <input type="text">
+                Seu comentário: <textarea name="" id="" cols="30" rows="10"></textarea>
+                Avaliação: <select>
+                        <option>Péssima</option>
+                        <option>Ruím</option>
+                        <option>Normal</option>
+                        <option>Boa</option>
+                        <option>Ótima</option>
+                    </select>
+                    <div class="botao">
+                        <Button>Enviar</Button>
+                    </div>
             </div>
-        </div>
-        <img src="img/executivo-etnico-africano-com-adesivos-no-escritorio_79295-4908.jpg" alt="">
+        </form>
+        <!-- <img src="img/executivo-etnico-africano-com-adesivos-no-escritorio_79295-4908.jpg" alt=""> -->
     </main>
 
     <footer>

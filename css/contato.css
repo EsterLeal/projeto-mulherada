@@ -1,29 +1,36 @@
-
-.contato {
-    flex-flow: column; 
-    padding: 10px; 
-    position: fixed;
-    left: 26%;
-}
-.duvidas {
-    flex-flow: column;
+.faleConosco {
+    align-items: center;
     display: flex;
-    position: fixed;
-    right: 22%;
-    padding: 10px;
+    flex-flow: column;    
+    background-color: gainsboro; 
+    width: 350px;
+    margin-left: 500px;
 }
 
-button {
-    width: 50px;
-}
-
-p {
-    text-align: center; 
-}
 
 textarea {
-    resize: none; 
-    width: 315px;
-    height: 155px; 
+    border-radius: 8px;
+    height: 150px;
+    resize: none;
+    width: 300px;   
 }
-
+    
+button {
+    border-radius: 8px;
+    display: flex;
+    height: 26px;
+    margin-top: 1em; 
+    width: 56px;
+}
+    
+input {
+    border-radius:8px;
+    width: 300px;
+    height: 20px;
+} 
+    
+h1 {
+    text-align: center;
+    color: white;
+} 
+    
