@@ -1,9 +1,11 @@
 .depoimento { 
     align-items: center;
-    color:white;
     display:flex;
     flex-flow:column;
-   
+    background-color: gainsboro; 
+    width: 350px;
+    height: 450px;
+    margin-left: 500px;
 }
 
 h1 {
@@ -13,15 +15,16 @@ h1 {
 
 textarea {
     border-radius:8px;
-    height: 128px; 
+    height: 150px; 
     resize: none;
-    width: 244px;
+    width: 300px;
 }
 
 
 input {
     border-radius:8px;
-    width: 246px;
+    width: 300px;
+    height: 20px;
 } 
 
 button {
