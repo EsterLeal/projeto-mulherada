@@ -152,23 +152,7 @@ main div.container {
     flex-direction: row;
 }
 
-<<<<<<< HEAD
-=======
-.redes-sociais ul li {
 
-/* display: inline-block;
-float: left;
-list-style: none; */
-} 
-
-.flex {
-    flex-flow: column wrap;
-}
-
-.media {
-    /* display: */
-}
->>>>>>> 2c79b9289d69d760c9c0cc6e89b8d7678f1d6cf8
 .busca-container section input{
     display: flex;
     font-size: 18pt;
@@ -343,54 +327,6 @@ footer .container .img-footer img {
 
 }
 
-
-/* SOBRE NÓS */
-
-.main-sobre{
-    display: flex;
-    margin: 0;
-    justify-content: space-around;
-    flex-direction: row;
-
-
-
-}
-
-section .container .sobre{
-    display: flex;
-    justify-content: center;
-}
-
-.container sobre div{
-    font-size: 20pt;
-    color: white;
-    display: flex;
-    width: 100px;
-    flex-direction: row;
-    justify-content: center;
-}
-.sobre h1{
-    display: flex;
-    justify-content: left;
-    padding: 20px;
-    color: white;
-    margin: 0%;
-    font-size: 35pt;
-}
-.sobre-p{
-    text-align: left;
-    display: inline-block;
-    width: 340px;
-    color: white;
-    font-size: 15pt;
-    padding: 10px;
-}
-.sobre-container img{
-    width: 500px;
-    height: auto;
-    padding-top:80px;
-    
-}
 
 .padding-padrao {
     padding: 8px 16px;
