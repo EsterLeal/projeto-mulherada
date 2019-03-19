@@ -8,7 +8,10 @@
         <title>MULHERADA</title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
         <link rel="stylesheet" href="./css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+        <link rel="stylesheet" href="./css/main.css">
         <link rel="stylesheet" href="css/stylesAvaliacao.css">
+    
     </head>
     
     <body>
@@ -18,22 +21,19 @@
         <header>
             <div class="container">
                 <div>
-                    <img src="./img/icone1.png    " />
-                    <span>MULHERADA</span>
-                </div>
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="sobre.html">Sobre nós</a>
-                    <a href="vagas.html">Vagas</a>
-                    <a href="usuario.html">Cadastre-se</a>
-                    <a href="usuario.html">Login</a>
-                    <a href="curriculo.html">Currículo</a>
-                <a href="faleconosco.html">fale Conosco</a>
-                    
-                    
-                </nav>
-            </div>
+                    <img src="./img/ww_white.png    " />
+                    <span class="mulherada-logo">MULHERADA</span>
+                        </div>
+                            <nav>
+                                <a href="index.html">Home</a>
+                                <a href="sobrenos.html">Sobre nós</a>
+                                <a href="vagas.html">Vagas</a>
+                                <a href="usuario.html">Cadastre-se</a>
+                                <a href="usuario.html">Login</a>
+                            </nav>
+                    </div>
         </header>
+       
      <div class="centralizarH1">
         <h1>Avalie uma Empresa!</h1>
      </div>
@@ -42,13 +42,13 @@
         <p>Deixe aqui um comentário e uma avaliação do seu contato com uma empresa.</p>
      </div>
      
-    <main>
-        <form action="." method="post">
-            <div class="avaliacaoDaEmpresa">
-                Nome completo: <input type="text">
-                Nome da Empresa: <input type="text">
-                Título do seu comentário: <input type="text">
-                Seu comentário: <textarea name="" id="" cols="30" rows="10"></textarea>
+    <main class="centralizado">
+        <form class="container" action="." method="post">
+            <div class="avaliacao-empresa">
+                 <input type="text" placeholder="Nome completo">
+                 <input type="text" placeholder="Nome da Empresa">
+                <input type="text" placeholder="Título do seu comentário ">
+                <textarea name="" id="" cols="30" rows="10" placeholder=" Seu comentário"></textarea>
                 Avaliação: <select>
                         <option>Péssima</option>
                         <option>Ruím</option>
@@ -56,7 +56,7 @@
                         <option>Boa</option>
                         <option>Ótima</option>
                     </select>
-                    <div class="botao">
+                    <div class="botao-avaliacao">
                         <Button>Enviar</Button>
                     </div>
             </div>
@@ -64,9 +64,21 @@
         <!-- <img src="img/executivo-etnico-africano-com-adesivos-no-escritorio_79295-4908.jpg" alt=""> -->
     </main>
 
-    <footer>
-
-    </footer>
+   <footer class="centralizado">
+            <div class="container">
+                <div class="img-footer">
+                    <img src="./img/facebook (1).svg" alt="facebook" srcset="">
+                    <img src="./img/instagram (1).svg" alt="instagran" srcset="">
+                    <img src="./img/twitter.svg" alt="twitter" srcset="">
+                    <img src="./img/whatsapp.svg" alt="whatsapp" srcset="">
+                </div>
+                <ul>
+                    <li><a class="email-index" href="mailto:priscilauchoaa@gmail.com" target="_top">CONTATO</a></li>
+                    <li>SOBRE</li>
+                    <li>Copyright ©</li>
+                </ul>
+            </div>
+        </footer>
 </body>
 
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,17 @@
         <title>MULHERADA</title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
         <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/usuario.css">
     </head>
-    
+
     <body>
         <!--Esse container-body deixa todo a página centralizada com margem igual -->
         <!-- <div class="container-body"></div> -->
-       <!-- HEADER FIXO -->
+        <!-- HEADER FIXO -->
         <header>
             <div class="container">
                 <div>
-                    <img src="./img/ww_white.png    " />
+                    <img src="./img/ww_white.png" />
                     <span class="mulherada-logo">MULHERADA</span>
                 </div>
                 <nav>
@@ -27,44 +29,39 @@
                 </nav>
             </div>
         </header>
+
+
         <!-- MAIN -->
         <main>
 
-            <!-- BUSCA -->
-            <section class="busca-container centralizado">
-                <div class="container">
+            <div class="centralizado">
 
-                    <section class= "busca">
-                        <span for="cargo"></span>
-                        <input id="cargo"  type="text" name="cargo" size="30" placeholder="PROFISSÃO?">
-                    </section>
-                    
-                    <section class= "busca">
-                        <span for="localidade"></span>
-                        <input id="localidade" type="text" name="cargo" size="30" placeholder="LOCALIZAÇÃO?">
-                    </section>
-                    <a href="lista-vagas.html"><img class="botao-busca" src="./img/branco.png" alt="" srcset=""></a>
-                </div>
-                
-            </section>
 
-            <section class="texto-container centralizado">
-                <div class="container">
-                    <p>ENCONTRE AQUI SUAS MELHORES OPORTUNIDADES!</p>
-                    <p>AS MELHORES EMPRESAS QUALIFICADAS E AVALIADAS DO MERCADO</p>
-                </div>
-            </section>
+                <form class="form-usuario borda-padrao" name="formUsuario" action="" method="POST">
 
-            <section class="conteudo-container centralizado">
-                <div class="container">
-                    <a class="button" href="avaliacao.html">AVALIE UMA EMPRESA</a>
-                    <a class="button" href="curriculo.html">EDITE SEU CURRÍCULO</a>
-                </div>
-            </section>
+                    <span class="user">Usuário</span>
+
+                    <input type="text" name="nome" required="required" placeholder="Primeiro Nome">
+                    <input type="text" name="sobrenome" required="required" placeholder="Sobrenome">
+                    <input type="email" name="email" required="required" placeholder="Informe seu E-mail">
+                    <input type="password" name="senha" required="required" placeholder="Digite uma Senha">
+                    <input type="password" name="senha" required="required" placeholder="Confirme sua Senha ">
+                    <input type="submit" name="enviar" value="Cadastrar">
+
+                    <a href="login.html"> Já sou Cadastrado! </a>
+
+                    <div class="divisor-horizontal"></div>
+
+                    <p> Cadastre-se com suas redes sociais ou em nosso site para acessar as vagas!</p>
+
+                    <p class="botoes-rede-social">
+                        <img src="./img/facebook.png">
+                        <img src="./img/linkedin.png">
+                    </p>
+                </form>
+            </div>
         </main>
-        
-        
-        <!-- FOOTER FIXO-->
+
         <footer class="centralizado">
             <div class="container">
                 <div class="img-footer">
@@ -80,6 +77,6 @@
                 </ul>
             </div>
         </footer>
+    </body>
 
-    
 </html>

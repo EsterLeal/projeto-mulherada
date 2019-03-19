@@ -35,6 +35,12 @@ body {
     background-size: cover;
 }
 
+a {
+    color: #82c0d3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 /* CONTAINER */
 
 .container {
@@ -116,6 +122,7 @@ main {
     height: auto;
     min-height: calc(100% - 156px);
     padding-top: 50px;
+    overflow-y: auto;
 }
 
 main img{
@@ -172,6 +179,7 @@ list-style: none; */
     justify-content: space-between;
     flex-direction: row;
     text-align: center;
+    
 }
 
 focus + span {
@@ -211,7 +219,7 @@ hover:button {
 }
 
 .busca-container section input {
-    background-color:rgba(0, 0, 0, 0);
+    background-color:rgba(248, 241, 241, 0.37);
     color:white;
     border: 1px solid white;
     border-radius: 8px;
@@ -221,17 +229,24 @@ hover:button {
     width: 300px;
     margin-left: 0px;
     margin-right: 24px;
+    padding-top: 5px;
+    height: 40px;
+    font-size: 20pt;
+    padding: 3px;
 
 }
 
 .busca-container section input:focus {
     transform: scale(1.05);
+    font-size: 20pt;
+    padding: 3px;
 }
 
 /* TEXTO CONTAINER */
 
 .texto-container .container {
     flex-direction: column;
+    
 }
 
 .texto-container p {
@@ -243,7 +258,7 @@ hover:button {
 /* CONTEUDO CONTAINER */
 
 .conteudo-container .container {    
-    background-color: rgba(255, 255, 255, 0.377);
+    background-color: rgba(255, 255, 255, 0.075);
     border-radius: 8px;
     flex-direction: row;
     justify-content: space-around;
@@ -251,49 +266,25 @@ hover:button {
     width: 600px;
 }
 
-main .empresa{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 2px solid white;
-}
-.empresa a{
-    text-decoration:none;
-    background-color: rgba(255, 255, 255, 0.226);
-    border-radius: 5px;
-    color: white;
-    font-size: 20px;
-}
-.empresa img{
-    height: 30px;
-}
-/* DIVIDOR */
+.conteudo-container a {
 
-main .curriculo{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 2px solid white;
-    
-}
-.curriculo a{
-    text-decoration:none;
-    background-color: rgba(255, 255, 255, 0.226);
+    background-color: white;
     border-radius: 5px;
-    color: white;
-    font-size: 20px;
-}
-.curriculo img{
+    color: #E63C70;
+    font-size: 16pt;
+    width: 250px;
     height: 30px;
+    text-align: center;
 }
+
+/* DIVISOR HORIZONTAL */
 
 .divisor-horizontal {
     background-image: linear-gradient(to right, #E63C70, #675582, #63B1C8);
     display: block;
     height: 1px;
-    width: 100%;
+    margin: 8px;
+    width: calc(100% - 16px);
 }
 
 /* FOOTER */
@@ -326,7 +317,7 @@ footer .container .img-footer img {
     width: 30px;
 }
 
-.email{
+.email-index{
     color: pink;
     margin: 0%;
     text-align: center;
@@ -353,8 +344,83 @@ footer .container .img-footer img {
 }
 
 
+/* SOBRE NÓS */
+
+.main-sobre{
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    flex-direction: row;
 
 
 
+}
 
+section .container .sobre{
+    display: flex;
+    justify-content: center;
+}
 
+.container sobre div{
+    font-size: 20pt;
+    color: white;
+    display: flex;
+    width: 100px;
+    flex-direction: row;
+    justify-content: center;
+}
+.sobre h1{
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    color: white;
+    margin: 0%;
+    font-size: 35pt;
+}
+.sobre-p{
+    text-align: left;
+    display: inline-block;
+    width: 340px;
+    color: white;
+    font-size: 15pt;
+    padding: 10px;
+}
+.sobre-container img{
+    width: 500px;
+    height: auto;
+    padding-top:80px;
+    
+}
+
+.padding-padrao {
+    padding: 8px 16px;
+}
+    
+.borda-padrao {
+    border: 1px solid transparent;
+    border-image: linear-gradient(to right, #E63C70, #675582, #63B1C8);
+    border-image-slice: 1;
+}
+
+/* BOTAO */
+
+.button,
+button,
+input[type=submit] {
+    font-size: 16pt;
+    font-weight: bold;
+    border: 1px solid #E63C70;
+    border-radius: 8px;
+    color: #E63C70;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: auto;
+    transition: 100ms ease-in background-color, 100ms ease-in color;
+}
+
+.button:hover,
+button:hover,
+input[type=submit]:hover { 
+    background-color: #E63C70;
+    color: white;
+}
