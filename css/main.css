@@ -83,13 +83,18 @@ header div.container nav a {
     text-transform: uppercase;
     color: white;
     font-size: 15px;
-    margin-right: 24px;
-    
+    margin-right: 24px;   
 }
 
 header div.container nav a:hover { 
     color: rgba(248, 29, 212, 0.973);
-  }
+}
+
+header div.container nav a div {
+    text-transform: lowercase;
+    margin-right: 5px;
+}
+
 header div.container div {    
     align-items: center;
     display: flex;
@@ -349,7 +354,11 @@ input[type=submit] {
     border-radius: 8px;
     color: #E63C70;
     cursor: pointer;
+    font-family: 'Open Sans', sans-serif, light;
+    font-size: 10pt;
+    font-stretch: bold;
     text-transform: uppercase;
+    padding: 8px;
     width: auto;
     transition: 100ms ease-in background-color, 100ms ease-in color;
 }

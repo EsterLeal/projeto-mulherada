@@ -1,151 +1,130 @@
 <!-- ESTER -cadastro do curriculo do usuário -->
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MULHERADA</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-
-<body>
-    <!--Esse container-body deixa todo a página centralizada com margem igual -->
-    <!-- <div class="container-body"></div> -->
-    <!-- HEADER FIXO -->
-    <header>
-        <div class="container">
-            <div>
-                <img src="./img/icone1.png    " />
-                <span>MULHERADA</span>
-            </div>
-        <nav>
-                <a href="index.html">Home</a>
-                <a href="sobrenos.html">Sobre nós</a>
-                <a href="cadastro-usuario.html">Cadastre-se</a>
-                <a href="login.html">Login</a>
-
-
-            </nav>
-        </div>
-    </header>
-    <!DOCTYPE html>
-    <html lang="pt-br">
-
     <head>
-
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="./css/cadastros.css">
-
-        <title>Currículo</title>
-
+        <title>MULHERADA</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/usuario.css">
     </head>
-
+    
     <body>
+        <!--Esse container-body deixa todo a página centralizada com margem igual -->
+        <!-- <div class="container-body"></div> -->
+        <!-- HEADER FIXO -->
+        <header>
+            <div class="container">
+                <div>
+                    <img src="./img/ww_white.png" />
+                    <span class="mulherada-logo">MULHERADA</span>
+                </div>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="sobrenos.html">Sobre nós</a>
+                    <a href="cadastro-usuario.html">Cadastre-se</a>
+                    <a href="login.html"><div>Olá </div> Priscila</a>
+                </nav>
+            </div>
+        </header>
 
-        <form name="formCurriculo" action="" method="POST">
+        <main>
 
+            <div class="centralizado">
 
-            <h1>Cadastre seu currículo!</h1>
-            <p>Cadastre seu currículo nos campos abaixo! </p>
-
-            Selecione um arquivo <input type="file" name="arquivo">
-
-            <h3>Dados pessoais</h3>
-
-            <p class="nome">
-                Nome <input type="text" name="nome" required="required">
-            </p>
-
-            <p class="dataNascimento">
-                Data de Nascimento <input type="date" name="calendario" required="required">
-            </p>
-
-            <p class="nacionalidade">
-                Nacionalidade <input type="text" name="nacionalidade" required="required">
-            </p>
-
-            <p class="cpf">
-                Digite seu CPF <input type="number" name="numero" required="required">
-            </p>
-
-            <p class="estadoCivil">
-                Estado Civil <input type="text" name="estadoCivil" required="required">
-            </p>
-
-            <h3>Contato</h3>
-
-            <p class="email">
-                Informe um E-mail válido <input type="email" name="email" required="required">
-            </p>
-
-            <p class="telefone">
-                Telefone Fixo <input type="text" name="telefone" required="required">
-            </p>
-
-            <p class="telefoneCel">
-                Telefone Celular <input type="text" name="telefoneCel" required="required">
-            </p>
-
-            <h3>Endereço</h3>
-
-            <p class="cep">
-                Digite o CEP <input type="text" name="cep" required="required">
-            </p>
-
-            <p class="rua">
-                Rua (com o número) <input type="text" name="rua" required="required">
-            </p>
-
-            <p class="bairro">
-                Bairro <input type="text" name="bairro" required="required">
-            </p>
-
-            <p class="cidade">
-                Cidade <input type="text" name="cidade" required="required">
-            </p>
-
-            <p class="estado">
-                Estado <input type="text" name="estado" required="required">
-            </p>
-
-            <h3>Formação</h3>
-
-            <p class="Instituição">
-                Instituição <input type="text" name="Instituição" required="required">
-            </p>
-
-            <p class="curso">
-                Curso <input type="text" name="curso" required="required">
-            </p>
-
-            <p class="nivel">
-                Nível <input type="text" name="nivel" required="required">
-            </p>
-
-            <p class="periodo">
-                Início <input type="text" name="inicio" required="required">
-            </p>
-
-            <p class="periodo">
-                Término <input type="text" name="termino" required="required">
-            </p>
-
-            <p class="periodo">
-                <input type="text" name="" required="required">
-            </p>
+                <form class="form-usuario borda-padrao" name="formUsuario" action="" method="POST">
 
 
-            <p class="enviar">
-                <input type="submit" name="enviar" value="Enviar">
-            </p>
+                    <span class="user">Currículo</span>
 
+                    <h3>Dados pessoais</h3>
 
-        </form>
+                    <p class="nome">
+                        Nome <input type="text" name="nome" required="required" placeholder="Nome">
+                    </p>
+
+                    <p class="dataNascimento">
+                        Data de Nascimento <input type="date" name="calendario" required="required" placeholder="Data de Nascimento">
+                    </p>
+
+                    <p class="nacionalidade">
+                        Nacionalidade <input type="text" name="nacionalidade" required="required" placeholder="Nacionalidade">
+                    </p>
+
+                    <p class="cpf">
+                        Digite seu CPF <input type="number" name="numero" required="required" placeholder="Digite seu CPF">
+                    </p>
+
+                    <p class="estadoCivil">
+                        Estado Civil <input type="text" name="estadoCivil" required="required" placeholder="Estado Civil">
+                    </p>
+
+                    <h3>Contato</h3>
+
+                    <p class="email">
+                        Informe um E-mail válido <input type="email" name="email" required="required" placeholder="Informe um E-mail válido">
+                    </p>
+
+                    <p class="telefone">
+                        Telefone Fixo <input type="text" name="telefone" required="required" placeholder="Telefone Fixo">
+                    </p>
+
+                    <p class="telefoneCel">
+                        Telefone Celular <input type="text" name="telefoneCel" required="required" placeholder="Telefone Celular">
+                    </p>
+
+                    <h3>Endereço</h3>
+
+                    <p class="cep">
+                        Digite o CEP <input type="text" name="cep" required="required" placeholder="Digite o CEP">
+                    </p>
+
+                    <p class="rua">
+                        Rua (com o número) <input type="text" name="rua" required="required" placeholder="Rua (com o número)">
+                    </p>
+
+                    <p class="bairro">
+                        Bairro <input type="text" name="bairro" required="required" placeholder="Bairro">
+                    </p>
+
+                    <p class="cidade">
+                        Cidade <input type="text" name="cidade" required="required" placeholder="Cidade">
+                    </p>
+
+                    <p class="estado">
+                        Estado <input type="text" name="estado" required="required" placeholder="Estado">
+                    </p>
+
+                    <h3>Formação</h3>
+
+                    <p class="Instituição">
+                        Instituição <input type="text" name="Instituição" required="required" placeholder="Instituição">
+                    </p>
+
+                    <p class="curso">
+                        Curso <input type="text" name="curso" required="required" placeholder="Curso">
+                    </p>
+
+                    <p class="nivel">
+                        Nível <input type="text" name="nivel" required="required" placeholder="Nível">
+                    </p>
+
+                    <p class="periodo">
+                        Início <input type="text" name="inicio" required="required" placeholder="Início">
+                    </p>
+
+                    <p class="periodo">
+                        Término <input type="text" name="termino" required="required" placeholder="Término">
+                    </p>
+
+                    <a href="index-logado.html" class="button" type="submit">Entrar</a>
+
+                </form>
+            </div>
+        </main>
+
         <footer class="centralizado">
                 <div class="container">
                     <div class="img-footer">
